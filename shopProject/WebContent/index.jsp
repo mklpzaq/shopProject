@@ -7,7 +7,9 @@
 	#header_content{background-color : #efefef;}
 	#header_top{margin: 0 auto;}
 	.header_customer_ui{float: right;}
-	#container_content{background-color : #FAF4C0; padding : 0;}
+	#container_left_wing{padding: 0; text-align: right; }
+	#container_right_wing{padding: 0;}
+	#container_content{background-color : #FAF4C0; padding: 0;}
 </style>
 
 	<div id = "warpper">
@@ -58,15 +60,15 @@
 		<div id = "container">
 			<!-- 그리드 시스템 사용 -->
 			<div class = "row">
-				<div id = container_left_wing class = "col-xs-1">
-					left_wing
+				<div id = container_left_wing class = "col-xs-2">
+					leftWing
 				</div>
 				
 				<!-- Begin container_content -->			
-				<div id = container_content class = "col-xs-10">
+				<div id = container_content class = "col-xs-8">
 					
 					<!-- 캐러셀 -->
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style = "width: 60%;">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style = "width: 60%; margin:0 auto;">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -108,7 +110,7 @@
 				</div>
 				<!-- End container_content -->	
 				
-				<div id = container_right_wing class = "col-xs-1">
+				<div id = container_right_wing class = "col-xs-2">
 					right_wing
 				</div>
 			</div>
