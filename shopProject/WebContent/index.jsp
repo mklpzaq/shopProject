@@ -1,17 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="UTF-8"%>
 <jsp:include page = "/include/header.jsp"></jsp:include>
 
-<style>
-	/* !important는 기존작업 다 무시하고 우선적으로 적용시키겠다라는 것 = 덮어쓰기 */
-	/*body{padding: 0; margin: 0; background-color: #efefef !important;}*/
-	#header_content{background-color : #efefef;}
-	#header_top{margin: 0 auto;}
-	.header_customer_ui{float: right;}
-	#container_left_wing{padding: 0; text-align: right; }
-	#container_right_wing{padding: 0;}
-	#container_content{background-color : #FAF4C0; padding: 0;}
-</style>
-
 	<div id = "warpper">
 		<div id = "header">
 	
@@ -47,7 +36,7 @@
 				<!-- 그리드 시스템 사용 -->
 				<div class = "row">
 					<div class = "col-xs-2"></div>
-					<div class = "col-xs-2">
+					<div class = "col-xs-8">
 						<a href = "#"><img src = "<%= request.getContextPath() %>/image/header/category_01.png"></a>
 						
 					</div>
